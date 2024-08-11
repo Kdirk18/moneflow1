@@ -1,0 +1,850 @@
+.vectorIcon {
+    position: absolute;
+    height: 66.63%;
+    width: 83.33%;
+    top: 16.67%;
+    right: 8.33%;
+    bottom: 16.71%;
+    left: 8.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.fepicture {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 99px;
+    height: 80px;
+    overflow: hidden;
+}
+.fepictureWrapper {
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    background-color: #000e16;
+    width: 276px;
+    height: 80px;
+    overflow: hidden;
+}
+.icons {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.search {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+}
+.iconsParent {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 335px;
+    border-radius: 100px;
+    background-color: #333;
+    width: 385px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    gap: 12px;
+    color: #bccad2;
+}
+.guides {
+    position: absolute;
+    top: 31px;
+    left: 1096px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.docs {
+    position: absolute;
+    top: 31px;
+    left: 1185px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.feedback {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 1259px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.headingChild {
+    position: absolute;
+    top: 20px;
+    left: 1370px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.heading {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #000e16;
+    border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    width: 1440px;
+    height: 80px;
+    overflow: hidden;
+}
+.icons1 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.menuButtons {
+    position: absolute;
+    top: 24px;
+    left: 30px;
+    border-radius: 100px;
+    background-color: #03658c;
+    width: 246px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.menuButtons2 {
+    position: absolute;
+    top: 58px;
+    left: 30px;
+    border-radius: 100px;
+    background-color: #000e16;
+    width: 276px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.icons3 {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.menuButtons5 {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    line-height: 18px;
+    font-weight: 500;
+}
+.iconsGroup {
+    width: 178px;
+    position: relative;
+    height: 18px;
+}
+.iconsarrowDown {
+    width: 12px;
+    position: relative;
+    height: 12px;
+}
+.menuButtons4 {
+    position: absolute;
+    top: 92px;
+    left: 30px;
+    border-radius: 100px;
+    background-color: #000e16;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 16px;
+    box-sizing: border-box;
+}
+.menuBarChild {
+    position: absolute;
+    top: 799.5px;
+    left: 29.5px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 246px;
+    height: 1px;
+}
+.icons4 {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.menuButtons6 {
+    position: absolute;
+    top: 818px;
+    left: 30px;
+    border-radius: 100px;
+    background-color: #000e16;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.menuButtons8 {
+    position: absolute;
+    top: 852px;
+    left: 30px;
+    border-radius: 100px;
+    background-color: #000e16;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 7px 16px;
+    box-sizing: border-box;
+    gap: 8px;
+}
+.iconsContainer {
+    width: 163px;
+    position: relative;
+    height: 18px;
+}
+.menuButtons10 {
+    position: absolute;
+    top: 126px;
+    left: 30px;
+    border-radius: 100px;
+    background-color: #000e16;
+    width: 245px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 16px;
+    box-sizing: border-box;
+}
+.menuBar {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    background-color: #000e16;
+    border-right: 1px solid #000;
+    box-sizing: border-box;
+    width: 305px;
+    height: 944px;
+    overflow: hidden;
+}
+.iconamoonsearchLightParent {
+    position: absolute;
+    width: calc(100% - 77px);
+    top: 93px;
+    right: 33px;
+    left: 44px;
+    border-radius: 100px;
+    border: 0.5px solid #999;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 20px;
+    gap: 11px;
+    font-size: 15px;
+    color: #999;
+}
+.groupChild {
+    position: absolute;
+    top: 4px;
+    left: calc(50% - 39.5px);
+    width: 78px;
+    height: 8px;
+}
+.eparrowRightBoldIcon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+}
+.eparrowLeftBoldIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+}
+.groupParent {
+    position: absolute;
+    top: 393px;
+    left: calc(50% - 520.5px);
+    width: 1059px;
+    height: 16px;
+}
+.ethEtfIssuers {
+    position: absolute;
+    top: 12px;
+    left: 13px;
+    font-size: 22px;
+    line-height: 26px;
+}
+.outlineButton {
+    position: relative;
+    line-height: 16px;
+}
+.outlineButtons {
+    position: absolute;
+    top: 14px;
+    left: 953px;
+    border-radius: 0px 100px 100px 0px;
+    background-color: #021824;
+    border: 0.5px solid #8196a3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+}
+.outlineButtons1 {
+    position: absolute;
+    top: 14px;
+    left: 899px;
+    border-radius: 100px 0px 0px 100px;
+    background-color: #0bb3d9;
+    border: 0.5px solid #03658c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 12px;
+}
+.materialSymbolszoomOutMapIcon {
+    position: absolute;
+    top: 14px;
+    left: 1024px;
+    width: 24px;
+    height: 24px;
+}
+.name {
+    align-self: stretch;
+    position: relative;
+    line-height: 16px;
+}
+.name11 {
+    position: absolute;
+    top: 27px;
+    left: 0px;
+    line-height: 15px;
+}
+.name12 {
+    position: absolute;
+    top: 54px;
+    left: 0px;
+    line-height: 15px;
+}
+.name13 {
+    position: absolute;
+    top: 81px;
+    left: 0px;
+    line-height: 15px;
+}
+.name14 {
+    position: absolute;
+    top: 108px;
+    left: 0px;
+    line-height: 15px;
+}
+.name15 {
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    line-height: 15px;
+}
+.name16 {
+    position: absolute;
+    top: 162px;
+    left: 0px;
+    line-height: 15px;
+}
+.name17 {
+    position: absolute;
+    top: 189px;
+    left: 0px;
+    line-height: 15px;
+}
+.name1Parent {
+    width: 43px;
+    position: relative;
+    height: 204px;
+    font-family: 'Anonymous Pro';
+}
+.nameParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 43px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 15px;
+}
+.parent {
+    width: 22px;
+    position: relative;
+    height: 204px;
+    font-family: 'Anonymous Pro';
+}
+.ofTotalAumParent {
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 24px;
+    text-align: left;
+}
+.div8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 15px;
+    text-align: right;
+}
+.div9 {
+    position: absolute;
+    top: 27px;
+    left: 29px;
+    line-height: 15px;
+}
+.div10 {
+    position: absolute;
+    top: 54px;
+    left: 29px;
+    line-height: 15px;
+}
+.div11 {
+    position: absolute;
+    top: 81px;
+    left: 29px;
+    line-height: 15px;
+}
+.div12 {
+    position: absolute;
+    top: 108px;
+    left: 29px;
+    line-height: 15px;
+}
+.div13 {
+    position: absolute;
+    top: 135px;
+    left: 29px;
+    line-height: 15px;
+}
+.div14 {
+    position: absolute;
+    top: 162px;
+    left: 29px;
+    line-height: 15px;
+}
+.div15 {
+    position: absolute;
+    top: 189px;
+    left: 29px;
+    line-height: 15px;
+}
+.groupItem {
+    position: absolute;
+    top: 8px;
+    left: 108px;
+    max-height: 100%;
+    width: 61px;
+}
+.groupInner {
+    position: absolute;
+    top: 35px;
+    left: 108px;
+    max-height: 100%;
+    width: 61px;
+}
+.groupIcon {
+    position: absolute;
+    top: 62px;
+    left: 108px;
+    max-height: 100%;
+    width: 61px;
+}
+.groupChild1 {
+    position: absolute;
+    top: 89px;
+    left: 108px;
+    max-height: 100%;
+    width: 61px;
+}
+.groupChild2 {
+    position: absolute;
+    top: 116px;
+    left: 108px;
+    max-height: 100%;
+    width: 61px;
+}
+.groupChild3 {
+    position: absolute;
+    top: 143px;
+    left: 108px;
+    max-height: 100%;
+    width: 61px;
+}
+.groupChild4 {
+    position: absolute;
+    top: 170px;
+    left: 108px;
+    max-height: 100%;
+    width: 61px;
+}
+.groupChild5 {
+    position: absolute;
+    top: 197px;
+    left: 108px;
+    max-height: 100%;
+    width: 61px;
+}
+.group {
+    width: 169px;
+    position: relative;
+    height: 204px;
+    text-align: left;
+    font-family: 'Anonymous Pro';
+}
+.balanceParent {
+    width: 169px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+}
+.frameContainer {
+    position: absolute;
+    top: 0px;
+    left: 188px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: right;
+}
+.frameGroup {
+    position: absolute;
+    top: 68px;
+    left: 25px;
+    width: 1023px;
+    height: 244px;
+}
+.elevated {
+    position: absolute;
+    top: 13px;
+    left: 238px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    background-color: #000e16;
+    border: 0.5px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+    gap: 4px;
+}
+.ethEtfIssuersParent {
+    position: absolute;
+    width: calc(100% - 77px);
+    top: 449px;
+    right: 33px;
+    left: 44px;
+    border-radius: 20px;
+    background-color: #021824;
+    height: 353px;
+    overflow: hidden;
+}
+.signal {
+    position: absolute;
+    top: 187px;
+    left: 47px;
+    font-size: 22px;
+    line-height: 26px;
+}
+.elevated2 {
+    position: absolute;
+    top: 188px;
+    left: 179px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    background-color: #021824;
+    border: 0.5px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+    gap: 4px;
+}
+.elevated4 {
+    position: absolute;
+    top: 188px;
+    left: 292px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 100px;
+    background-color: #021824;
+    border: 0.5px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+    gap: 4px;
+}
+.outlineButtons2 {
+    position: absolute;
+    top: 188px;
+    right: 30px;
+    border-radius: 100px;
+    background-color: #021824;
+    border: 0.5px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+}
+.outlineButtons3 {
+    position: absolute;
+    top: 188px;
+    right: 110px;
+    border-radius: 100px;
+    background-color: #021824;
+    border: 0.5px solid #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 10px;
+}
+.toggeButtonsChild {
+    position: absolute;
+    height: 110%;
+    width: 104.76%;
+    top: -5%;
+    right: -2.38%;
+    bottom: -5%;
+    left: -2.38%;
+    border-radius: 100px;
+    background-color: #0bb3d9;
+    border: 1px solid #0bb3d9;
+    box-sizing: border-box;
+}
+.vectorIcon1 {
+    position: absolute;
+    height: 90%;
+    width: 42.86%;
+    top: 5%;
+    right: 2.38%;
+    bottom: 5%;
+    left: 54.76%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.toggeButtons {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 20px;
+}
+.forYou {
+    position: absolute;
+    top: 1px;
+    left: 50px;
+    line-height: 20px;
+}
+.toggeButtonsParent {
+    position: absolute;
+    top: 189px;
+    left: 375px;
+    width: 106px;
+    height: 21px;
+    font-size: 15px;
+}
+.hashweiSpotlight {
+    position: relative;
+    line-height: 32px;
+    font-weight: 600;
+}
+.hashweiSpotlightWrapper {
+    position: absolute;
+    top: 1px;
+    left: 27px;
+    border-bottom: 1px solid #0bb3d9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 26px;
+    color: #0bb3d9;
+}
+.myDashboardWrapper {
+    position: absolute;
+    top: 1px;
+    left: 286px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 26px;
+}
+.cryptocurrencyColorethIcon {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+}
+.topBalancesChange {
+    position: absolute;
+    top: 12px;
+    left: 34px;
+    line-height: 22px;
+}
+.title {
+    position: absolute;
+    top: 42px;
+    left: 12px;
+    font-size: 15px;
+    line-height: 20px;
+    display: inline-block;
+    width: 316px;
+    height: 86px;
+}
+.cryptocurrencyColorethParent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 20px;
+    background-color: #021824;
+    width: 340px;
+    height: 140px;
+    overflow: hidden;
+}
+.chain {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    line-height: 22px;
+}
+.chainParent {
+    position: absolute;
+    top: 0px;
+    left: 360px;
+    border-radius: 20px;
+    background-color: #021824;
+    width: 340px;
+    height: 140px;
+    overflow: hidden;
+}
+.chainGroup {
+    position: absolute;
+    top: 0px;
+    left: 720px;
+    border-radius: 20px;
+    background-color: #021824;
+    width: 340px;
+    height: 140px;
+    overflow: hidden;
+}
+.cryptocurrencyColorethGroup {
+    position: absolute;
+    top: 0px;
+    left: 1080px;
+    border-radius: 20px;
+    background-color: #021824;
+    width: 340px;
+    height: 140px;
+    overflow: hidden;
+}
+.chainContainer {
+    position: absolute;
+    top: 0px;
+    left: 1440px;
+    border-radius: 20px;
+    background-color: #021824;
+    width: 340px;
+    height: 140px;
+    overflow: hidden;
+}
+.chainParent1 {
+    position: absolute;
+    top: 0px;
+    left: 1800px;
+    border-radius: 20px;
+    background-color: #021824;
+    width: 340px;
+    height: 140px;
+    overflow: hidden;
+}
+.frameDiv {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 2140px;
+    height: 140px;
+    overflow: hidden;
+}
+.frameWrapper {
+    position: absolute;
+    top: 233px;
+    left: 44px;
+    width: 1060px;
+    height: 140px;
+    font-size: 17px;
+}
+.frameParent {
+    position: absolute;
+    top: 80px;
+    right: -3px;
+    width: 1137px;
+    height: 928px;
+    overflow: hidden;
+    font-size: 13px;
+}
+.landingPageshomeScreen {
+    width: 100%;
+    position: relative;
+    background-color: #000e16;
+    height: 1024px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+    font-family: Montserrat;
+}
+

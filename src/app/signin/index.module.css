@@ -1,0 +1,192 @@
+.signIn1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.newUser {
+    position: absolute;
+    top: 49px;
+    left: 0px;
+    line-height: 20px;
+}
+.createAnAccount {
+    position: relative;
+    line-height: 20px;
+}
+.createAnAccountWrapper {
+    position: absolute;
+    top: 49px;
+    left: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #0bb3d9;
+}
+.signInParent {
+    position: absolute;
+    top: 34px;
+    left: 52px;
+    width: 226px;
+    height: 69px;
+}
+.emailAddress {
+    position: absolute;
+    top: 149px;
+    left: 57px;
+    font-size: 11px;
+    line-height: 14px;
+}
+.password {
+    position: absolute;
+    top: 221px;
+    left: 57px;
+    font-size: 11px;
+    line-height: 14px;
+}
+.abcgmailcom {
+    position: relative;
+    line-height: 14px;
+}
+.abcgmailcomWrapper {
+    position: absolute;
+    top: 170px;
+    left: 52px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9px 20px;
+    font-size: 11px;
+}
+.enterYourPasswordWrapper {
+    position: absolute;
+    top: 242px;
+    left: 52px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9px 20px;
+    font-size: 11px;
+}
+.filled {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+}
+.filledButtons {
+    position: absolute;
+    top: 297px;
+    left: 392px;
+    border-radius: 100px;
+    background-color: #03658c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    color: #fff;
+}
+.or {
+    position: absolute;
+    top: 358px;
+    left: calc(50% - 5.5px);
+    line-height: 20px;
+    color: #000;
+}
+.flatColorIconsgoogle {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.flatColorIconsgoogleParent {
+    position: absolute;
+    top: 406px;
+    left: 52px;
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0px;
+    gap: 8px;
+    color: #000;
+}
+.iconsParent {
+    position: absolute;
+    top: 456px;
+    left: 52px;
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0px;
+    gap: 8px;
+    color: #000;
+}
+.groupParent {
+    position: absolute;
+    top: calc(50% - 388px);
+    left: 730px;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 557px;
+    height: 736px;
+    overflow: hidden;
+}
+.logoHere {
+    position: absolute;
+    top: 57px;
+    left: 45px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.logoHereWrapper {
+    position: absolute;
+    top: 414px;
+    left: 177px;
+    width: 378px;
+    height: 150px;
+    overflow: hidden;
+    font-size: 26px;
+    color: #fff;
+}
+.signIn {
+    width: 100%;
+    position: relative;
+    height: 1024px;
+    overflow: hidden;
+    background-image: url('../../../public/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 15px;
+    color: #111;
+    font-family: Montserrat;
+}
+

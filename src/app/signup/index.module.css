@@ -1,0 +1,273 @@
+.createAnAccount {
+    position: absolute;
+    top: 34px;
+    left: 52px;
+    font-size: 26px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #111;
+}
+.emailAddress {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 14px;
+}
+.abcgmailcom {
+    position: relative;
+    line-height: 14px;
+}
+.abcgmailcomWrapper {
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 9px 20px;
+    color: #666;
+}
+.emailAddressParent {
+    position: absolute;
+    top: 154px;
+    left: 52px;
+    width: 453px;
+    height: 54px;
+    font-size: 11px;
+    color: #111;
+}
+.icons {
+    width: 16px;
+    position: relative;
+    height: 16px;
+}
+.enterYourPasswordParent {
+    position: absolute;
+    top: 22px;
+    left: 0px;
+    border-radius: 6px;
+    background-color: #fff;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 20px;
+    color: #666;
+}
+.passwordParent {
+    position: absolute;
+    top: 220px;
+    left: 52px;
+    width: 453px;
+    height: 54px;
+    font-size: 11px;
+    color: #111;
+}
+.filled {
+    position: relative;
+    line-height: 18px;
+    font-weight: 500;
+}
+.filledButtons {
+    position: absolute;
+    top: 380px;
+    left: 401px;
+    border-radius: 100px;
+    background-color: #03658c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    color: #fff;
+}
+.or {
+    position: absolute;
+    top: 434px;
+    left: calc(50% - 5.5px);
+    line-height: 20px;
+}
+.flatColorIconsgoogle {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.flatColorIconsgoogleParent {
+    position: absolute;
+    top: 474px;
+    left: 52px;
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0px;
+    gap: 8px;
+}
+.iconsParent {
+    position: absolute;
+    top: 518px;
+    left: 52px;
+    border-radius: 10px;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 453px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0px;
+    gap: 8px;
+}
+.alreadyHaveAn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 20px;
+}
+.signIn {
+    position: relative;
+    line-height: 20px;
+}
+.signInWrapper {
+    position: absolute;
+    top: 0px;
+    left: 201px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #0bb3d9;
+}
+.alreadyHaveAnAccountParent {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    width: 253px;
+    height: 20px;
+}
+.signUpWith {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #000;
+}
+.groupParent {
+    position: absolute;
+    top: 86px;
+    left: 52px;
+    width: 253px;
+    height: 48px;
+    color: #111;
+}
+.checkBoxIcon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.termsOfServices {
+    text-decoration: underline;
+}
+.iAgreeToTermsContainer {
+    position: absolute;
+    top: 5px;
+    left: 37px;
+    line-height: 14px;
+}
+.checkBoxParent {
+    position: absolute;
+    top: 294px;
+    left: 52px;
+    width: 275px;
+    height: 24px;
+    font-size: 11px;
+}
+.checkBox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 6px;
+    border: 0.5px solid #000;
+    box-sizing: border-box;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.subscribeToReceive {
+    position: absolute;
+    top: 6px;
+    left: 37px;
+    line-height: 14px;
+    display: inline-block;
+    width: 416px;
+}
+.checkBoxGroup {
+    position: absolute;
+    top: 326px;
+    left: 52px;
+    width: 453px;
+    height: 34px;
+    font-size: 11px;
+}
+.createAnAccountParent {
+    position: absolute;
+    top: calc(50% - 388px);
+    left: 730px;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 557px;
+    height: 736px;
+    overflow: hidden;
+}
+.logoHere {
+    position: absolute;
+    top: 57px;
+    left: 45px;
+    line-height: 32px;
+    font-weight: 600;
+}
+.logoHereWrapper {
+    position: absolute;
+    top: 414px;
+    left: 177px;
+    width: 378px;
+    height: 150px;
+    overflow: hidden;
+    font-size: 26px;
+    color: #fff;
+}
+.signUp {
+    width: 100%;
+    position: relative;
+    height: 1024px;
+    overflow: hidden;
+    background-image: url('../../../public/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+    font-family: Montserrat;
+}
+
