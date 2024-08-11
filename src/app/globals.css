@@ -40,3 +40,13 @@ body {
   padding: 20px; /* Khoảng cách giữa nội dung và viền khung */
   background-color: 'black'; /* Màu nền khung */
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400&display=swap');
+body {
+  	margin: 0; line-height: normal;
+}

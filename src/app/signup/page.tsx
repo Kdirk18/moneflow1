@@ -1,92 +1,66 @@
 'use client'
 
-import React from 'react'
-import { useState } from 'react';
-import { useEffect } from 'react';
-import { Mentions } from 'antd'
-import Link from 'next/link'
+import type { NextPage } from 'next';
+import styles from './index.module.css';
 
 
-import axios from 'axios'
-import { toast } from "react"
-import { useRouter } from 'next/navigation';
-
-export default function SignupPage() {
-    const router = useRouter()
-
-    const [user, setUser] = useState({
-        email: "",
-        password: "",
-        username: ""
-    })
-
-    const [buttonDisabled, setButtonDisabled] = useState
-        (false)
-    const [loading, setLoading] = useState(false)
-
-    const onSignup = async () => {
-        try {
-            setLoading(true)
-            const response = await axios.post("/api/users/signup", user)
-            console.log("Signup success", response.data);
-            router.push('/login')
-
-
-        } catch (error: any) {
-            console.log("Signup failed");
-            toast.error(error.message)
-        }
-
-
-    }
-    const options = [{ value: 'sample', label: 'sample' }];
-    useEffect(() => {
-        if (user.email.length > 0 && user.password.length > 0 && user.username.length > 0) {
-            setButtonDisabled(false)
-        } else {
-            setButtonDisabled(true)
-        }
-
-    }, [user])
-
-
+const SignUp: NextPage = () => {
     return (
-        <div className='flex flex-col items-center justify-center min-h-screen py-2'>
-            <h1>{loading ? "Processing" : "Signup"}</h1>
-            <hr />
-            <label htmlFor="username">username</label>
-            <input
-                className='p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black'
-                id='username'
-                value={user.username}
-                onChange={(e) => setUser({ ...user, username: e.target.value })}
-                placeholder='username'
-                type="text" />
-            <label htmlFor="email">email</label>
-            <input
-                className='p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black'
-                id='email'
-                value={user.email}
-                onChange={(e) => setUser({ ...user, email: e.target.value })}
-                placeholder='email'
-                type="text" />
-            <label htmlFor="password">password</label>
-            <input
-                className='p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black'
-                id='password'
-                value={user.password}
-                onChange={(e) => setUser({ ...user, password: e.target.value })}
-                placeholder='password'
-                type="password" />
-            <button
-                onClick={onSignup}
-                className='p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600 text-black hover:text-teal-700 duration-300'
-            >
-                {buttonDisabled ? "No signup" : "Signup"}
-            </button>
-            <Link href="/login" className='hover:text-teal-700 duration-300'>Visit Login Page</Link>
+        <div className={styles.signUp}>
+            <div className={styles.createAnAccountParent}>
+                <div className={styles.createAnAccount}>Create an account</div>
+                <div className={styles.emailAddressParent}>
+                    <div className={styles.emailAddress}>Email address</div>
+                    <div className={styles.abcgmailcomWrapper}>
+                        <div className={styles.abcgmailcom}>abc@gmail.com</div>
+                    </div>
+                </div>
+                <div className={styles.passwordParent}>
+                    <div className={styles.emailAddress}>Password</div>
+                    <div className={styles.enterYourPasswordParent}>
+                        <div className={styles.abcgmailcom}>Enter your password</div>
+                        <img className={styles.icons} alt="" src="Icons.svg" />
+                    </div>
+                </div>
+                <div className={styles.filledButtons}>
+                    <div className={styles.filled}>Continue</div>
+                </div>
+                <div className={styles.or}>Or</div>
+                <div className={styles.flatColorIconsgoogleParent}>
+                    <img className={styles.flatColorIconsgoogle} alt="" src="flat-color-icons:google.svg" />
+                    <div className={styles.filled}>Continue with Google</div>
+                </div>
+                <div className={styles.iconsParent}>
+                    <img className={styles.flatColorIconsgoogle} alt="" src="Icons.svg" />
+                    <div className={styles.filled}>Continue with Wallet</div>
+                </div>
+                <div className={styles.groupParent}>
+                    <div className={styles.alreadyHaveAnAccountParent}>
+                        <div className={styles.alreadyHaveAn}>Already have an account?</div>
+                        <div className={styles.signInWrapper}>
+                            <div className={styles.signIn}>Sign in</div>
+                        </div>
+                    </div>
+                    <div className={styles.signUpWith}>Sign up with email</div>
+                </div>
+                <div className={styles.checkBoxParent}>
+                    <img className={styles.checkBoxIcon} alt="" src="Check box.svg" />
+                    <div className={styles.iAgreeToTermsContainer}>
+                        <span>I agree to
+                            <span className={styles.termsOfServices}>Terms of Services</span>{` & `}
+                            <span className={styles.termsOfServices}>Privacy Policy</span>
+                        </span>
+                    </div>
+                </div>
+                <div className={styles.checkBoxGroup}>
+                    <div className={styles.checkBox} />
+                    <div className={styles.subscribeToReceive}>Subscribe to receive company news and product updates from Hashwei. You may unsubscribe at any time.</div>
+                </div>
+            </div>
+            <div className={styles.logoHereWrapper}>
+                <div className={styles.logoHere}>Logo here</div>
+            </div>
+        </div>);
+};
 
-        </div>
-    );
-}
-
+export default SignUp;
